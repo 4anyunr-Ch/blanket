@@ -8,77 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		04FE8EC21FD4E9E800EF7C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8EC11FD4E9E800EF7C57 /* AppDelegate.m */; };
+		04FE8EC51FD4E9E800EF7C57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8EC41FD4E9E800EF7C57 /* ViewController.m */; };
+		04FE8EC81FD4E9E800EF7C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8EC61FD4E9E800EF7C57 /* Main.storyboard */; };
 		04FE8ECA1FD4E9E800EF7C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8EC91FD4E9E800EF7C57 /* Assets.xcassets */; };
 		04FE8ECD1FD4E9E800EF7C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8ECB1FD4E9E800EF7C57 /* LaunchScreen.storyboard */; };
 		04FE8ED01FD4E9E800EF7C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8ECF1FD4E9E800EF7C57 /* main.m */; };
 		04FE8EDA1FD4E9E800EF7C57 /* blanketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8ED91FD4E9E800EF7C57 /* blanketTests.m */; };
 		04FE8EE51FD4E9E800EF7C57 /* blanketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8EE41FD4E9E800EF7C57 /* blanketUITests.m */; };
-		04FE8F0D1FD4EBC300EF7C57 /* STNoresultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8EFB1FD4EBC300EF7C57 /* STNoresultView.m */; };
-		04FE8F0E1FD4EBC300EF7C57 /* TMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F011FD4EBC300EF7C57 /* TMLoginViewController.m */; };
-		04FE8F0F1FD4EBC300EF7C57 /* TMTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F031FD4EBC300EF7C57 /* TMTabbarViewController.m */; };
-		04FE8F101FD4EBC300EF7C57 /* TMForgotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F071FD4EBC300EF7C57 /* TMForgotViewController.m */; };
-		04FE8F111FD4EBC300EF7C57 /* TMRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F091FD4EBC300EF7C57 /* TMRegisterViewController.m */; };
-		04FE8F921FD4EBD400EF7C57 /* TMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F141FD4EBD400EF7C57 /* TMUtils.m */; };
-		04FE8F931FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F181FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.m */; };
-		04FE8F941FD4EBD400EF7C57 /* NSDate+STFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F1A1FD4EBD400EF7C57 /* NSDate+STFormatter.m */; };
-		04FE8F951FD4EBD400EF7C57 /* NSObject+STRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F1C1FD4EBD400EF7C57 /* NSObject+STRuntimeTool.m */; };
-		04FE8F961FD4EBD400EF7C57 /* NSString+STFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F1E1FD4EBD400EF7C57 /* NSString+STFormatter.m */; };
-		04FE8F971FD4EBD400EF7C57 /* NSString+STMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F201FD4EBD400EF7C57 /* NSString+STMD5.m */; };
-		04FE8F981FD4EBD400EF7C57 /* UIImage+STTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F221FD4EBD400EF7C57 /* UIImage+STTools.m */; };
-		04FE8F991FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F241FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.m */; };
-		04FE8F9A1FD4EBD400EF7C57 /* UITextField+STInputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F261FD4EBD400EF7C57 /* UITextField+STInputLimit.m */; };
-		04FE8F9B1FD4EBD400EF7C57 /* UIView+STAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F281FD4EBD400EF7C57 /* UIView+STAnimation.m */; };
-		04FE8F9C1FD4EBD400EF7C57 /* UIView+STDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F2A1FD4EBD400EF7C57 /* UIView+STDirection.m */; };
-		04FE8F9D1FD4EBD400EF7C57 /* UIView+STShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F2C1FD4EBD400EF7C57 /* UIView+STShadow.m */; };
-		04FE8F9E1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F2E1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.m */; };
-		04FE8F9F1FD4EBD400EF7C57 /* STError.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F311FD4EBD400EF7C57 /* STError.m */; };
-		04FE8FA01FD4EBD400EF7C57 /* STLocationManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F331FD4EBD400EF7C57 /* STLocationManger.m */; };
-		04FE8FA11FD4EBD400EF7C57 /* STNetWrokManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F351FD4EBD400EF7C57 /* STNetWrokManger.m */; };
-		04FE8FA21FD4EBD400EF7C57 /* STUserManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F371FD4EBD400EF7C57 /* STUserManger.m */; };
-		04FE8FA31FD4EBD400EF7C57 /* STTableEasyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F3A1FD4EBD400EF7C57 /* STTableEasyModel.m */; };
-		04FE8FA41FD4EBD400EF7C57 /* STPhotoKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8F3C1FD4EBD400EF7C57 /* STPhotoKit.bundle */; };
-		04FE8FA51FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F3F1FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.m */; };
-		04FE8FA61FD4EBD400EF7C57 /* UIView+STPhotoKitTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F411FD4EBD400EF7C57 /* UIView+STPhotoKitTool.m */; };
-		04FE8FA71FD4EBD400EF7C57 /* STPhotoSystemBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F441FD4EBD400EF7C57 /* STPhotoSystemBrowserController.m */; };
-		04FE8FA81FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F461FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.m */; };
-		04FE8FA91FD4EBD400EF7C57 /* STPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F491FD4EBD400EF7C57 /* STPhotoModel.m */; };
-		04FE8FAA1FD4EBD400EF7C57 /* STUrlPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F4B1FD4EBD400EF7C57 /* STUrlPhotoModel.m */; };
-		04FE8FAB1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F4E1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.m */; };
-		04FE8FAC1FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F501FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.m */; };
-		04FE8FAD1FD4EBD400EF7C57 /* STPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F521FD4EBD400EF7C57 /* STPhotoCollectionViewCell.m */; };
-		04FE8FAE1FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F541FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.m */; };
-		04FE8FAF1FD4EBD400EF7C57 /* STImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F571FD4EBD400EF7C57 /* STImagePickerController.m */; };
-		04FE8FB01FD4EBD400EF7C57 /* STPhotoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F591FD4EBD400EF7C57 /* STPhotoBaseViewController.m */; };
-		04FE8FB11FD4EBD400EF7C57 /* STPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F5B1FD4EBD400EF7C57 /* STPhotoCollectionViewController.m */; };
-		04FE8FB21FD4EBD400EF7C57 /* STTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8F5C1FD4EBD400EF7C57 /* STTools.bundle */; };
-		04FE8FB31FD4EBD400EF7C57 /* STLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F601FD4EBD400EF7C57 /* STLayoutViewController.m */; };
-		04FE8FB41FD4EBD400EF7C57 /* STNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F621FD4EBD400EF7C57 /* STNavigationController.m */; };
-		04FE8FB51FD4EBD400EF7C57 /* STPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F641FD4EBD400EF7C57 /* STPickerViewController.m */; };
-		04FE8FB61FD4EBD400EF7C57 /* STPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F661FD4EBD400EF7C57 /* STPopViewController.m */; };
-		04FE8FB71FD4EBD400EF7C57 /* STScanTwoCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F681FD4EBD400EF7C57 /* STScanTwoCodeController.m */; };
-		04FE8FB81FD4EBD400EF7C57 /* STTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F6A1FD4EBD400EF7C57 /* STTableViewController.m */; };
-		04FE8FB91FD4EBD400EF7C57 /* STTableViewDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F6C1FD4EBD400EF7C57 /* STTableViewDetailController.m */; };
-		04FE8FBA1FD4EBD400EF7C57 /* STWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F6E1FD4EBD400EF7C57 /* STWebViewController.m */; };
-		04FE8FBB1FD4EBD400EF7C57 /* UIViewController+STPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F701FD4EBD400EF7C57 /* UIViewController+STPresent.m */; };
-		04FE8FBC1FD4EBD400EF7C57 /* STAdvertingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F731FD4EBD400EF7C57 /* STAdvertingScrollView.m */; };
-		04FE8FBD1FD4EBD400EF7C57 /* STAutoAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F751FD4EBD400EF7C57 /* STAutoAddView.m */; };
-		04FE8FBE1FD4EBD400EF7C57 /* STAVResourseLoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F771FD4EBD400EF7C57 /* STAVResourseLoder.m */; };
-		04FE8FBF1FD4EBD400EF7C57 /* STAVResourseNetTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F791FD4EBD400EF7C57 /* STAVResourseNetTask.m */; };
-		04FE8FC01FD4EBD400EF7C57 /* STBezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F7B1FD4EBD400EF7C57 /* STBezierView.m */; };
-		04FE8FC11FD4EBD400EF7C57 /* STButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F7D1FD4EBD400EF7C57 /* STButton.m */; };
-		04FE8FC21FD4EBD400EF7C57 /* STLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F7F1FD4EBD400EF7C57 /* STLabel.m */; };
-		04FE8FC31FD4EBD400EF7C57 /* STProgressHudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F811FD4EBD400EF7C57 /* STProgressHudTool.m */; };
-		04FE8FC41FD4EBD400EF7C57 /* STRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F831FD4EBD400EF7C57 /* STRadioButton.m */; };
-		04FE8FC51FD4EBD400EF7C57 /* STSegementButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F851FD4EBD400EF7C57 /* STSegementButton.m */; };
-		04FE8FC61FD4EBD400EF7C57 /* STSendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F871FD4EBD400EF7C57 /* STSendButton.m */; };
-		04FE8FC71FD4EBD400EF7C57 /* STTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F891FD4EBD400EF7C57 /* STTextView.m */; };
-		04FE8FC81FD4EBD400EF7C57 /* STVideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F8B1FD4EBD400EF7C57 /* STVideoPlayView.m */; };
-		04FE8FC91FD4EBD400EF7C57 /* STXingXIngView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F8D1FD4EBD400EF7C57 /* STXingXIngView.m */; };
-		04FE8FCA1FD4EBD400EF7C57 /* TBloaderURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F8F1FD4EBD400EF7C57 /* TBloaderURLConnection.m */; };
-		04FE8FCB1FD4EBD400EF7C57 /* TBVideoRequestTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8F911FD4EBD400EF7C57 /* TBVideoRequestTask.m */; };
-		04FE8FCE1FD4EC0500EF7C57 /* TMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FCD1FD4EC0500EF7C57 /* TMBaseView.m */; };
-		04FE8FD11FD4EC2400EF7C57 /* TMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FD01FD4EC2400EF7C57 /* TMBaseViewController.m */; };
-		04FE8FD41FD4EC4A00EF7C57 /* TMNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FD31FD4EC4A00EF7C57 /* TMNavgationViewController.m */; };
 		937657A1E6DDDAF987D4C48C /* Pods_blanket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F02ECB1CACF5277A0410BAA /* Pods_blanket.framework */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +39,9 @@
 		04FE8EBD1FD4E9E800EF7C57 /* blanket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blanket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE8EC01FD4E9E800EF7C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FE8EC11FD4E9E800EF7C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FE8EC31FD4E9E800EF7C57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04FE8EC41FD4E9E800EF7C57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FE8EC71FD4E9E800EF7C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FE8EC91FD4E9E800EF7C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FE8ECC1FD4E9E800EF7C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FE8ECE1FD4E9E800EF7C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,141 +52,6 @@
 		04FE8EE01FD4E9E800EF7C57 /* blanketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blanketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE8EE41FD4E9E800EF7C57 /* blanketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blanketUITests.m; sourceTree = "<group>"; };
 		04FE8EE61FD4E9E800EF7C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04FE8EFA1FD4EBC300EF7C57 /* STNoresultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNoresultView.h; sourceTree = "<group>"; };
-		04FE8EFB1FD4EBC300EF7C57 /* STNoresultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNoresultView.m; sourceTree = "<group>"; };
-		04FE8EFC1FD4EBC300EF7C57 /* TMApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMApi.h; sourceTree = "<group>"; };
-		04FE8EFD1FD4EBC300EF7C57 /* TMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMConst.h; sourceTree = "<group>"; };
-		04FE8EFE1FD4EBC300EF7C57 /* TMGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMGlobalMacro.h; sourceTree = "<group>"; };
-		04FE8F001FD4EBC300EF7C57 /* TMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMLoginViewController.h; sourceTree = "<group>"; };
-		04FE8F011FD4EBC300EF7C57 /* TMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMLoginViewController.m; sourceTree = "<group>"; };
-		04FE8F021FD4EBC300EF7C57 /* TMTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTabbarViewController.h; sourceTree = "<group>"; };
-		04FE8F031FD4EBC300EF7C57 /* TMTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTabbarViewController.m; sourceTree = "<group>"; };
-		04FE8F041FD4EBC300EF7C57 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		04FE8F061FD4EBC300EF7C57 /* TMForgotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMForgotViewController.h; sourceTree = "<group>"; };
-		04FE8F071FD4EBC300EF7C57 /* TMForgotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMForgotViewController.m; sourceTree = "<group>"; };
-		04FE8F081FD4EBC300EF7C57 /* TMRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMRegisterViewController.h; sourceTree = "<group>"; };
-		04FE8F091FD4EBC300EF7C57 /* TMRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRegisterViewController.m; sourceTree = "<group>"; };
-		04FE8F131FD4EBD400EF7C57 /* TMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMUtils.h; sourceTree = "<group>"; };
-		04FE8F141FD4EBD400EF7C57 /* TMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMUtils.m; sourceTree = "<group>"; };
-		04FE8F171FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+STCalendarTool.h"; sourceTree = "<group>"; };
-		04FE8F181FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+STCalendarTool.m"; sourceTree = "<group>"; };
-		04FE8F191FD4EBD400EF7C57 /* NSDate+STFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+STFormatter.h"; sourceTree = "<group>"; };
-		04FE8F1A1FD4EBD400EF7C57 /* NSDate+STFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+STFormatter.m"; sourceTree = "<group>"; };
-		04FE8F1B1FD4EBD400EF7C57 /* NSObject+STRuntimeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+STRuntimeTool.h"; sourceTree = "<group>"; };
-		04FE8F1C1FD4EBD400EF7C57 /* NSObject+STRuntimeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+STRuntimeTool.m"; sourceTree = "<group>"; };
-		04FE8F1D1FD4EBD400EF7C57 /* NSString+STFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STFormatter.h"; sourceTree = "<group>"; };
-		04FE8F1E1FD4EBD400EF7C57 /* NSString+STFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STFormatter.m"; sourceTree = "<group>"; };
-		04FE8F1F1FD4EBD400EF7C57 /* NSString+STMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STMD5.h"; sourceTree = "<group>"; };
-		04FE8F201FD4EBD400EF7C57 /* NSString+STMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STMD5.m"; sourceTree = "<group>"; };
-		04FE8F211FD4EBD400EF7C57 /* UIImage+STTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+STTools.h"; sourceTree = "<group>"; };
-		04FE8F221FD4EBD400EF7C57 /* UIImage+STTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+STTools.m"; sourceTree = "<group>"; };
-		04FE8F231FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+STKeybordAdjust.h"; sourceTree = "<group>"; };
-		04FE8F241FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+STKeybordAdjust.m"; sourceTree = "<group>"; };
-		04FE8F251FD4EBD400EF7C57 /* UITextField+STInputLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+STInputLimit.h"; sourceTree = "<group>"; };
-		04FE8F261FD4EBD400EF7C57 /* UITextField+STInputLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+STInputLimit.m"; sourceTree = "<group>"; };
-		04FE8F271FD4EBD400EF7C57 /* UIView+STAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STAnimation.h"; sourceTree = "<group>"; };
-		04FE8F281FD4EBD400EF7C57 /* UIView+STAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STAnimation.m"; sourceTree = "<group>"; };
-		04FE8F291FD4EBD400EF7C57 /* UIView+STDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STDirection.h"; sourceTree = "<group>"; };
-		04FE8F2A1FD4EBD400EF7C57 /* UIView+STDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STDirection.m"; sourceTree = "<group>"; };
-		04FE8F2B1FD4EBD400EF7C57 /* UIView+STShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STShadow.h"; sourceTree = "<group>"; };
-		04FE8F2C1FD4EBD400EF7C57 /* UIView+STShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STShadow.m"; sourceTree = "<group>"; };
-		04FE8F2D1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STNavigationTools.h"; sourceTree = "<group>"; };
-		04FE8F2E1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STNavigationTools.m"; sourceTree = "<group>"; };
-		04FE8F301FD4EBD400EF7C57 /* STError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STError.h; sourceTree = "<group>"; };
-		04FE8F311FD4EBD400EF7C57 /* STError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STError.m; sourceTree = "<group>"; };
-		04FE8F321FD4EBD400EF7C57 /* STLocationManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLocationManger.h; sourceTree = "<group>"; };
-		04FE8F331FD4EBD400EF7C57 /* STLocationManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLocationManger.m; sourceTree = "<group>"; };
-		04FE8F341FD4EBD400EF7C57 /* STNetWrokManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNetWrokManger.h; sourceTree = "<group>"; };
-		04FE8F351FD4EBD400EF7C57 /* STNetWrokManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNetWrokManger.m; sourceTree = "<group>"; };
-		04FE8F361FD4EBD400EF7C57 /* STUserManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUserManger.h; sourceTree = "<group>"; };
-		04FE8F371FD4EBD400EF7C57 /* STUserManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUserManger.m; sourceTree = "<group>"; };
-		04FE8F391FD4EBD400EF7C57 /* STTableEasyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableEasyModel.h; sourceTree = "<group>"; };
-		04FE8F3A1FD4EBD400EF7C57 /* STTableEasyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableEasyModel.m; sourceTree = "<group>"; };
-		04FE8F3C1FD4EBD400EF7C57 /* STPhotoKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = STPhotoKit.bundle; sourceTree = "<group>"; };
-		04FE8F3E1FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+STPhotoKitSelectedAnimation.h"; sourceTree = "<group>"; };
-		04FE8F3F1FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+STPhotoKitSelectedAnimation.m"; sourceTree = "<group>"; };
-		04FE8F401FD4EBD400EF7C57 /* UIView+STPhotoKitTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STPhotoKitTool.h"; sourceTree = "<group>"; };
-		04FE8F411FD4EBD400EF7C57 /* UIView+STPhotoKitTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STPhotoKitTool.m"; sourceTree = "<group>"; };
-		04FE8F431FD4EBD400EF7C57 /* STPhotoSystemBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoSystemBrowserController.h; sourceTree = "<group>"; };
-		04FE8F441FD4EBD400EF7C57 /* STPhotoSystemBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoSystemBrowserController.m; sourceTree = "<group>"; };
-		04FE8F451FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoUrlImageBrowerController.h; sourceTree = "<group>"; };
-		04FE8F461FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoUrlImageBrowerController.m; sourceTree = "<group>"; };
-		04FE8F481FD4EBD400EF7C57 /* STPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoModel.h; sourceTree = "<group>"; };
-		04FE8F491FD4EBD400EF7C57 /* STPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoModel.m; sourceTree = "<group>"; };
-		04FE8F4A1FD4EBD400EF7C57 /* STUrlPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUrlPhotoModel.h; sourceTree = "<group>"; };
-		04FE8F4B1FD4EBD400EF7C57 /* STUrlPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUrlPhotoModel.m; sourceTree = "<group>"; };
-		04FE8F4D1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBrowserCollectionViewCell.h; sourceTree = "<group>"; };
-		04FE8F4E1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBrowserCollectionViewCell.m; sourceTree = "<group>"; };
-		04FE8F4F1FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoBaseTableViewCell.h; sourceTree = "<group>"; };
-		04FE8F501FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoBaseTableViewCell.m; sourceTree = "<group>"; };
-		04FE8F511FD4EBD400EF7C57 /* STPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoCollectionViewCell.h; sourceTree = "<group>"; };
-		04FE8F521FD4EBD400EF7C57 /* STPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoCollectionViewCell.m; sourceTree = "<group>"; };
-		04FE8F531FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUrlBrowserCollectionViewCell.h; sourceTree = "<group>"; };
-		04FE8F541FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUrlBrowserCollectionViewCell.m; sourceTree = "<group>"; };
-		04FE8F561FD4EBD400EF7C57 /* STImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImagePickerController.h; sourceTree = "<group>"; };
-		04FE8F571FD4EBD400EF7C57 /* STImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImagePickerController.m; sourceTree = "<group>"; };
-		04FE8F581FD4EBD400EF7C57 /* STPhotoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoBaseViewController.h; sourceTree = "<group>"; };
-		04FE8F591FD4EBD400EF7C57 /* STPhotoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoBaseViewController.m; sourceTree = "<group>"; };
-		04FE8F5A1FD4EBD400EF7C57 /* STPhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoCollectionViewController.h; sourceTree = "<group>"; };
-		04FE8F5B1FD4EBD400EF7C57 /* STPhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoCollectionViewController.m; sourceTree = "<group>"; };
-		04FE8F5C1FD4EBD400EF7C57 /* STTools.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = STTools.bundle; sourceTree = "<group>"; };
-		04FE8F5D1FD4EBD400EF7C57 /* STTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTools.h; sourceTree = "<group>"; };
-		04FE8F5F1FD4EBD400EF7C57 /* STLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLayoutViewController.h; sourceTree = "<group>"; };
-		04FE8F601FD4EBD400EF7C57 /* STLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLayoutViewController.m; sourceTree = "<group>"; };
-		04FE8F611FD4EBD400EF7C57 /* STNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavigationController.h; sourceTree = "<group>"; };
-		04FE8F621FD4EBD400EF7C57 /* STNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavigationController.m; sourceTree = "<group>"; };
-		04FE8F631FD4EBD400EF7C57 /* STPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerViewController.h; sourceTree = "<group>"; };
-		04FE8F641FD4EBD400EF7C57 /* STPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerViewController.m; sourceTree = "<group>"; };
-		04FE8F651FD4EBD400EF7C57 /* STPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopViewController.h; sourceTree = "<group>"; };
-		04FE8F661FD4EBD400EF7C57 /* STPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopViewController.m; sourceTree = "<group>"; };
-		04FE8F671FD4EBD400EF7C57 /* STScanTwoCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScanTwoCodeController.h; sourceTree = "<group>"; };
-		04FE8F681FD4EBD400EF7C57 /* STScanTwoCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScanTwoCodeController.m; sourceTree = "<group>"; };
-		04FE8F691FD4EBD400EF7C57 /* STTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewController.h; sourceTree = "<group>"; };
-		04FE8F6A1FD4EBD400EF7C57 /* STTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewController.m; sourceTree = "<group>"; };
-		04FE8F6B1FD4EBD400EF7C57 /* STTableViewDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewDetailController.h; sourceTree = "<group>"; };
-		04FE8F6C1FD4EBD400EF7C57 /* STTableViewDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewDetailController.m; sourceTree = "<group>"; };
-		04FE8F6D1FD4EBD400EF7C57 /* STWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWebViewController.h; sourceTree = "<group>"; };
-		04FE8F6E1FD4EBD400EF7C57 /* STWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWebViewController.m; sourceTree = "<group>"; };
-		04FE8F6F1FD4EBD400EF7C57 /* UIViewController+STPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+STPresent.h"; sourceTree = "<group>"; };
-		04FE8F701FD4EBD400EF7C57 /* UIViewController+STPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+STPresent.m"; sourceTree = "<group>"; };
-		04FE8F721FD4EBD400EF7C57 /* STAdvertingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAdvertingScrollView.h; sourceTree = "<group>"; };
-		04FE8F731FD4EBD400EF7C57 /* STAdvertingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAdvertingScrollView.m; sourceTree = "<group>"; };
-		04FE8F741FD4EBD400EF7C57 /* STAutoAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAutoAddView.h; sourceTree = "<group>"; };
-		04FE8F751FD4EBD400EF7C57 /* STAutoAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAutoAddView.m; sourceTree = "<group>"; };
-		04FE8F761FD4EBD400EF7C57 /* STAVResourseLoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAVResourseLoder.h; sourceTree = "<group>"; };
-		04FE8F771FD4EBD400EF7C57 /* STAVResourseLoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAVResourseLoder.m; sourceTree = "<group>"; };
-		04FE8F781FD4EBD400EF7C57 /* STAVResourseNetTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAVResourseNetTask.h; sourceTree = "<group>"; };
-		04FE8F791FD4EBD400EF7C57 /* STAVResourseNetTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAVResourseNetTask.m; sourceTree = "<group>"; };
-		04FE8F7A1FD4EBD400EF7C57 /* STBezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBezierView.h; sourceTree = "<group>"; };
-		04FE8F7B1FD4EBD400EF7C57 /* STBezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBezierView.m; sourceTree = "<group>"; };
-		04FE8F7C1FD4EBD400EF7C57 /* STButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STButton.h; sourceTree = "<group>"; };
-		04FE8F7D1FD4EBD400EF7C57 /* STButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STButton.m; sourceTree = "<group>"; };
-		04FE8F7E1FD4EBD400EF7C57 /* STLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLabel.h; sourceTree = "<group>"; };
-		04FE8F7F1FD4EBD400EF7C57 /* STLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLabel.m; sourceTree = "<group>"; };
-		04FE8F801FD4EBD400EF7C57 /* STProgressHudTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STProgressHudTool.h; sourceTree = "<group>"; };
-		04FE8F811FD4EBD400EF7C57 /* STProgressHudTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STProgressHudTool.m; sourceTree = "<group>"; };
-		04FE8F821FD4EBD400EF7C57 /* STRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRadioButton.h; sourceTree = "<group>"; };
-		04FE8F831FD4EBD400EF7C57 /* STRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRadioButton.m; sourceTree = "<group>"; };
-		04FE8F841FD4EBD400EF7C57 /* STSegementButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegementButton.h; sourceTree = "<group>"; };
-		04FE8F851FD4EBD400EF7C57 /* STSegementButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegementButton.m; sourceTree = "<group>"; };
-		04FE8F861FD4EBD400EF7C57 /* STSendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSendButton.h; sourceTree = "<group>"; };
-		04FE8F871FD4EBD400EF7C57 /* STSendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSendButton.m; sourceTree = "<group>"; };
-		04FE8F881FD4EBD400EF7C57 /* STTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTextView.h; sourceTree = "<group>"; };
-		04FE8F891FD4EBD400EF7C57 /* STTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTextView.m; sourceTree = "<group>"; };
-		04FE8F8A1FD4EBD400EF7C57 /* STVideoPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STVideoPlayView.h; sourceTree = "<group>"; };
-		04FE8F8B1FD4EBD400EF7C57 /* STVideoPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STVideoPlayView.m; sourceTree = "<group>"; };
-		04FE8F8C1FD4EBD400EF7C57 /* STXingXIngView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STXingXIngView.h; sourceTree = "<group>"; };
-		04FE8F8D1FD4EBD400EF7C57 /* STXingXIngView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STXingXIngView.m; sourceTree = "<group>"; };
-		04FE8F8E1FD4EBD400EF7C57 /* TBloaderURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBloaderURLConnection.h; sourceTree = "<group>"; };
-		04FE8F8F1FD4EBD400EF7C57 /* TBloaderURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBloaderURLConnection.m; sourceTree = "<group>"; };
-		04FE8F901FD4EBD400EF7C57 /* TBVideoRequestTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBVideoRequestTask.h; sourceTree = "<group>"; };
-		04FE8F911FD4EBD400EF7C57 /* TBVideoRequestTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBVideoRequestTask.m; sourceTree = "<group>"; };
-		04FE8FCC1FD4EC0500EF7C57 /* TMBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBaseView.h; sourceTree = "<group>"; };
-		04FE8FCD1FD4EC0500EF7C57 /* TMBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBaseView.m; sourceTree = "<group>"; };
-		04FE8FCF1FD4EC2400EF7C57 /* TMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMBaseViewController.h; sourceTree = "<group>"; };
-		04FE8FD01FD4EC2400EF7C57 /* TMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBaseViewController.m; sourceTree = "<group>"; };
-		04FE8FD21FD4EC4A00EF7C57 /* TMNavgationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNavgationViewController.h; sourceTree = "<group>"; };
-		04FE8FD31FD4EC4A00EF7C57 /* TMNavgationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNavgationViewController.m; sourceTree = "<group>"; };
 		7EDDEA309159BDDA8780EEDF /* Pods-blanket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blanket.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-blanket/Pods-blanket.debug.xcconfig"; sourceTree = "<group>"; };
 		8F02ECB1CACF5277A0410BAA /* Pods_blanket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blanket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE863A6396AE6A73536ABE72 /* Pods-blanket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blanket.release.xcconfig"; path = "../Pods/Target Support Files/Pods-blanket/Pods-blanket.release.xcconfig"; sourceTree = "<group>"; };
@@ -304,10 +108,11 @@
 		04FE8EBF1FD4E9E800EF7C57 /* blanket */ = {
 			isa = PBXGroup;
 			children = (
-				04FE8EF21FD4EBC300EF7C57 /* MainTab */,
-				04FE8F121FD4EBD400EF7C57 /* Utils */,
 				04FE8EC01FD4E9E800EF7C57 /* AppDelegate.h */,
 				04FE8EC11FD4E9E800EF7C57 /* AppDelegate.m */,
+				04FE8EC31FD4E9E800EF7C57 /* ViewController.h */,
+				04FE8EC41FD4E9E800EF7C57 /* ViewController.m */,
+				04FE8EC61FD4E9E800EF7C57 /* Main.storyboard */,
 				04FE8EC91FD4E9E800EF7C57 /* Assets.xcassets */,
 				04FE8ECB1FD4E9E800EF7C57 /* LaunchScreen.storyboard */,
 				04FE8ECE1FD4E9E800EF7C57 /* Info.plist */,
@@ -332,275 +137,6 @@
 				04FE8EE61FD4E9E800EF7C57 /* Info.plist */,
 			);
 			path = blanketUITests;
-			sourceTree = "<group>";
-		};
-		04FE8EF21FD4EBC300EF7C57 /* MainTab */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F051FD4EBC300EF7C57 /* Register */,
-				04FE8EFF1FD4EBC300EF7C57 /* main */,
-				04FE8EF31FD4EBC300EF7C57 /* Base */,
-				04FE8EFC1FD4EBC300EF7C57 /* TMApi.h */,
-				04FE8EFD1FD4EBC300EF7C57 /* TMConst.h */,
-				04FE8EFE1FD4EBC300EF7C57 /* TMGlobalMacro.h */,
-				04FE8F041FD4EBC300EF7C57 /* PrefixHeader.pch */,
-			);
-			path = MainTab;
-			sourceTree = "<group>";
-		};
-		04FE8EF31FD4EBC300EF7C57 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8EFA1FD4EBC300EF7C57 /* STNoresultView.h */,
-				04FE8EFB1FD4EBC300EF7C57 /* STNoresultView.m */,
-				04FE8FCC1FD4EC0500EF7C57 /* TMBaseView.h */,
-				04FE8FCD1FD4EC0500EF7C57 /* TMBaseView.m */,
-				04FE8FCF1FD4EC2400EF7C57 /* TMBaseViewController.h */,
-				04FE8FD01FD4EC2400EF7C57 /* TMBaseViewController.m */,
-				04FE8FD21FD4EC4A00EF7C57 /* TMNavgationViewController.h */,
-				04FE8FD31FD4EC4A00EF7C57 /* TMNavgationViewController.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		04FE8EFF1FD4EBC300EF7C57 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F001FD4EBC300EF7C57 /* TMLoginViewController.h */,
-				04FE8F011FD4EBC300EF7C57 /* TMLoginViewController.m */,
-				04FE8F021FD4EBC300EF7C57 /* TMTabbarViewController.h */,
-				04FE8F031FD4EBC300EF7C57 /* TMTabbarViewController.m */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
-		04FE8F051FD4EBC300EF7C57 /* Register */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F061FD4EBC300EF7C57 /* TMForgotViewController.h */,
-				04FE8F071FD4EBC300EF7C57 /* TMForgotViewController.m */,
-				04FE8F081FD4EBC300EF7C57 /* TMRegisterViewController.h */,
-				04FE8F091FD4EBC300EF7C57 /* TMRegisterViewController.m */,
-			);
-			path = Register;
-			sourceTree = "<group>";
-		};
-		04FE8F121FD4EBD400EF7C57 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F131FD4EBD400EF7C57 /* TMUtils.h */,
-				04FE8F141FD4EBD400EF7C57 /* TMUtils.m */,
-				04FE8F151FD4EBD400EF7C57 /* STTools */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		04FE8F151FD4EBD400EF7C57 /* STTools */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F161FD4EBD400EF7C57 /* category */,
-				04FE8F2F1FD4EBD400EF7C57 /* manger */,
-				04FE8F381FD4EBD400EF7C57 /* Model */,
-				04FE8F3B1FD4EBD400EF7C57 /* STPhotoKit */,
-				04FE8F5C1FD4EBD400EF7C57 /* STTools.bundle */,
-				04FE8F5D1FD4EBD400EF7C57 /* STTools.h */,
-				04FE8F5E1FD4EBD400EF7C57 /* VC */,
-				04FE8F711FD4EBD400EF7C57 /* View */,
-			);
-			path = STTools;
-			sourceTree = "<group>";
-		};
-		04FE8F161FD4EBD400EF7C57 /* category */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F171FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.h */,
-				04FE8F181FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.m */,
-				04FE8F191FD4EBD400EF7C57 /* NSDate+STFormatter.h */,
-				04FE8F1A1FD4EBD400EF7C57 /* NSDate+STFormatter.m */,
-				04FE8F1B1FD4EBD400EF7C57 /* NSObject+STRuntimeTool.h */,
-				04FE8F1C1FD4EBD400EF7C57 /* NSObject+STRuntimeTool.m */,
-				04FE8F1D1FD4EBD400EF7C57 /* NSString+STFormatter.h */,
-				04FE8F1E1FD4EBD400EF7C57 /* NSString+STFormatter.m */,
-				04FE8F1F1FD4EBD400EF7C57 /* NSString+STMD5.h */,
-				04FE8F201FD4EBD400EF7C57 /* NSString+STMD5.m */,
-				04FE8F211FD4EBD400EF7C57 /* UIImage+STTools.h */,
-				04FE8F221FD4EBD400EF7C57 /* UIImage+STTools.m */,
-				04FE8F231FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.h */,
-				04FE8F241FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.m */,
-				04FE8F251FD4EBD400EF7C57 /* UITextField+STInputLimit.h */,
-				04FE8F261FD4EBD400EF7C57 /* UITextField+STInputLimit.m */,
-				04FE8F271FD4EBD400EF7C57 /* UIView+STAnimation.h */,
-				04FE8F281FD4EBD400EF7C57 /* UIView+STAnimation.m */,
-				04FE8F291FD4EBD400EF7C57 /* UIView+STDirection.h */,
-				04FE8F2A1FD4EBD400EF7C57 /* UIView+STDirection.m */,
-				04FE8F2B1FD4EBD400EF7C57 /* UIView+STShadow.h */,
-				04FE8F2C1FD4EBD400EF7C57 /* UIView+STShadow.m */,
-				04FE8F2D1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.h */,
-				04FE8F2E1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.m */,
-			);
-			path = category;
-			sourceTree = "<group>";
-		};
-		04FE8F2F1FD4EBD400EF7C57 /* manger */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F301FD4EBD400EF7C57 /* STError.h */,
-				04FE8F311FD4EBD400EF7C57 /* STError.m */,
-				04FE8F321FD4EBD400EF7C57 /* STLocationManger.h */,
-				04FE8F331FD4EBD400EF7C57 /* STLocationManger.m */,
-				04FE8F341FD4EBD400EF7C57 /* STNetWrokManger.h */,
-				04FE8F351FD4EBD400EF7C57 /* STNetWrokManger.m */,
-				04FE8F361FD4EBD400EF7C57 /* STUserManger.h */,
-				04FE8F371FD4EBD400EF7C57 /* STUserManger.m */,
-			);
-			path = manger;
-			sourceTree = "<group>";
-		};
-		04FE8F381FD4EBD400EF7C57 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F391FD4EBD400EF7C57 /* STTableEasyModel.h */,
-				04FE8F3A1FD4EBD400EF7C57 /* STTableEasyModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		04FE8F3B1FD4EBD400EF7C57 /* STPhotoKit */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F3C1FD4EBD400EF7C57 /* STPhotoKit.bundle */,
-				04FE8F3D1FD4EBD400EF7C57 /* STPhotoKitCategory */,
-				04FE8F421FD4EBD400EF7C57 /* STPhotoKitImageBrowser */,
-				04FE8F471FD4EBD400EF7C57 /* STPhotoKitModel */,
-				04FE8F4C1FD4EBD400EF7C57 /* STPhotoKitView */,
-				04FE8F551FD4EBD400EF7C57 /* STPhotoKitViewController */,
-			);
-			path = STPhotoKit;
-			sourceTree = "<group>";
-		};
-		04FE8F3D1FD4EBD400EF7C57 /* STPhotoKitCategory */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F3E1FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.h */,
-				04FE8F3F1FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.m */,
-				04FE8F401FD4EBD400EF7C57 /* UIView+STPhotoKitTool.h */,
-				04FE8F411FD4EBD400EF7C57 /* UIView+STPhotoKitTool.m */,
-			);
-			path = STPhotoKitCategory;
-			sourceTree = "<group>";
-		};
-		04FE8F421FD4EBD400EF7C57 /* STPhotoKitImageBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F431FD4EBD400EF7C57 /* STPhotoSystemBrowserController.h */,
-				04FE8F441FD4EBD400EF7C57 /* STPhotoSystemBrowserController.m */,
-				04FE8F451FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.h */,
-				04FE8F461FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.m */,
-			);
-			path = STPhotoKitImageBrowser;
-			sourceTree = "<group>";
-		};
-		04FE8F471FD4EBD400EF7C57 /* STPhotoKitModel */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F481FD4EBD400EF7C57 /* STPhotoModel.h */,
-				04FE8F491FD4EBD400EF7C57 /* STPhotoModel.m */,
-				04FE8F4A1FD4EBD400EF7C57 /* STUrlPhotoModel.h */,
-				04FE8F4B1FD4EBD400EF7C57 /* STUrlPhotoModel.m */,
-			);
-			path = STPhotoKitModel;
-			sourceTree = "<group>";
-		};
-		04FE8F4C1FD4EBD400EF7C57 /* STPhotoKitView */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F4D1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.h */,
-				04FE8F4E1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.m */,
-				04FE8F4F1FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.h */,
-				04FE8F501FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.m */,
-				04FE8F511FD4EBD400EF7C57 /* STPhotoCollectionViewCell.h */,
-				04FE8F521FD4EBD400EF7C57 /* STPhotoCollectionViewCell.m */,
-				04FE8F531FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.h */,
-				04FE8F541FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.m */,
-			);
-			path = STPhotoKitView;
-			sourceTree = "<group>";
-		};
-		04FE8F551FD4EBD400EF7C57 /* STPhotoKitViewController */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F561FD4EBD400EF7C57 /* STImagePickerController.h */,
-				04FE8F571FD4EBD400EF7C57 /* STImagePickerController.m */,
-				04FE8F581FD4EBD400EF7C57 /* STPhotoBaseViewController.h */,
-				04FE8F591FD4EBD400EF7C57 /* STPhotoBaseViewController.m */,
-				04FE8F5A1FD4EBD400EF7C57 /* STPhotoCollectionViewController.h */,
-				04FE8F5B1FD4EBD400EF7C57 /* STPhotoCollectionViewController.m */,
-			);
-			path = STPhotoKitViewController;
-			sourceTree = "<group>";
-		};
-		04FE8F5E1FD4EBD400EF7C57 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F5F1FD4EBD400EF7C57 /* STLayoutViewController.h */,
-				04FE8F601FD4EBD400EF7C57 /* STLayoutViewController.m */,
-				04FE8F611FD4EBD400EF7C57 /* STNavigationController.h */,
-				04FE8F621FD4EBD400EF7C57 /* STNavigationController.m */,
-				04FE8F631FD4EBD400EF7C57 /* STPickerViewController.h */,
-				04FE8F641FD4EBD400EF7C57 /* STPickerViewController.m */,
-				04FE8F651FD4EBD400EF7C57 /* STPopViewController.h */,
-				04FE8F661FD4EBD400EF7C57 /* STPopViewController.m */,
-				04FE8F671FD4EBD400EF7C57 /* STScanTwoCodeController.h */,
-				04FE8F681FD4EBD400EF7C57 /* STScanTwoCodeController.m */,
-				04FE8F691FD4EBD400EF7C57 /* STTableViewController.h */,
-				04FE8F6A1FD4EBD400EF7C57 /* STTableViewController.m */,
-				04FE8F6B1FD4EBD400EF7C57 /* STTableViewDetailController.h */,
-				04FE8F6C1FD4EBD400EF7C57 /* STTableViewDetailController.m */,
-				04FE8F6D1FD4EBD400EF7C57 /* STWebViewController.h */,
-				04FE8F6E1FD4EBD400EF7C57 /* STWebViewController.m */,
-				04FE8F6F1FD4EBD400EF7C57 /* UIViewController+STPresent.h */,
-				04FE8F701FD4EBD400EF7C57 /* UIViewController+STPresent.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		04FE8F711FD4EBD400EF7C57 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				04FE8F721FD4EBD400EF7C57 /* STAdvertingScrollView.h */,
-				04FE8F731FD4EBD400EF7C57 /* STAdvertingScrollView.m */,
-				04FE8F741FD4EBD400EF7C57 /* STAutoAddView.h */,
-				04FE8F751FD4EBD400EF7C57 /* STAutoAddView.m */,
-				04FE8F761FD4EBD400EF7C57 /* STAVResourseLoder.h */,
-				04FE8F771FD4EBD400EF7C57 /* STAVResourseLoder.m */,
-				04FE8F781FD4EBD400EF7C57 /* STAVResourseNetTask.h */,
-				04FE8F791FD4EBD400EF7C57 /* STAVResourseNetTask.m */,
-				04FE8F7A1FD4EBD400EF7C57 /* STBezierView.h */,
-				04FE8F7B1FD4EBD400EF7C57 /* STBezierView.m */,
-				04FE8F7C1FD4EBD400EF7C57 /* STButton.h */,
-				04FE8F7D1FD4EBD400EF7C57 /* STButton.m */,
-				04FE8F7E1FD4EBD400EF7C57 /* STLabel.h */,
-				04FE8F7F1FD4EBD400EF7C57 /* STLabel.m */,
-				04FE8F801FD4EBD400EF7C57 /* STProgressHudTool.h */,
-				04FE8F811FD4EBD400EF7C57 /* STProgressHudTool.m */,
-				04FE8F821FD4EBD400EF7C57 /* STRadioButton.h */,
-				04FE8F831FD4EBD400EF7C57 /* STRadioButton.m */,
-				04FE8F841FD4EBD400EF7C57 /* STSegementButton.h */,
-				04FE8F851FD4EBD400EF7C57 /* STSegementButton.m */,
-				04FE8F861FD4EBD400EF7C57 /* STSendButton.h */,
-				04FE8F871FD4EBD400EF7C57 /* STSendButton.m */,
-				04FE8F881FD4EBD400EF7C57 /* STTextView.h */,
-				04FE8F891FD4EBD400EF7C57 /* STTextView.m */,
-				04FE8F8A1FD4EBD400EF7C57 /* STVideoPlayView.h */,
-				04FE8F8B1FD4EBD400EF7C57 /* STVideoPlayView.m */,
-				04FE8F8C1FD4EBD400EF7C57 /* STXingXIngView.h */,
-				04FE8F8D1FD4EBD400EF7C57 /* STXingXIngView.m */,
-				04FE8F8E1FD4EBD400EF7C57 /* TBloaderURLConnection.h */,
-				04FE8F8F1FD4EBD400EF7C57 /* TBloaderURLConnection.m */,
-				04FE8F901FD4EBD400EF7C57 /* TBVideoRequestTask.h */,
-				04FE8F911FD4EBD400EF7C57 /* TBVideoRequestTask.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		26B67FB4506C3160BB112AD2 /* Pods */ = {
@@ -730,9 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FE8ECD1FD4E9E800EF7C57 /* LaunchScreen.storyboard in Resources */,
-				04FE8FA41FD4EBD400EF7C57 /* STPhotoKit.bundle in Resources */,
-				04FE8FB21FD4EBD400EF7C57 /* STTools.bundle in Resources */,
 				04FE8ECA1FD4E9E800EF7C57 /* Assets.xcassets in Resources */,
+				04FE8EC81FD4E9E800EF7C57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,72 +356,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FE8FB01FD4EBD400EF7C57 /* STPhotoBaseViewController.m in Sources */,
-				04FE8FB11FD4EBD400EF7C57 /* STPhotoCollectionViewController.m in Sources */,
-				04FE8FA01FD4EBD400EF7C57 /* STLocationManger.m in Sources */,
+				04FE8EC51FD4E9E800EF7C57 /* ViewController.m in Sources */,
 				04FE8ED01FD4E9E800EF7C57 /* main.m in Sources */,
-				04FE8FA61FD4EBD400EF7C57 /* UIView+STPhotoKitTool.m in Sources */,
-				04FE8FC01FD4EBD400EF7C57 /* STBezierView.m in Sources */,
-				04FE8FCA1FD4EBD400EF7C57 /* TBloaderURLConnection.m in Sources */,
-				04FE8FBF1FD4EBD400EF7C57 /* STAVResourseNetTask.m in Sources */,
-				04FE8FAC1FD4EBD400EF7C57 /* STPhotoBaseTableViewCell.m in Sources */,
-				04FE8FC81FD4EBD400EF7C57 /* STVideoPlayView.m in Sources */,
-				04FE8F9C1FD4EBD400EF7C57 /* UIView+STDirection.m in Sources */,
-				04FE8F9D1FD4EBD400EF7C57 /* UIView+STShadow.m in Sources */,
-				04FE8FB41FD4EBD400EF7C57 /* STNavigationController.m in Sources */,
-				04FE8FC21FD4EBD400EF7C57 /* STLabel.m in Sources */,
-				04FE8FB61FD4EBD400EF7C57 /* STPopViewController.m in Sources */,
-				04FE8FD41FD4EC4A00EF7C57 /* TMNavgationViewController.m in Sources */,
-				04FE8FC71FD4EBD400EF7C57 /* STTextView.m in Sources */,
-				04FE8FBB1FD4EBD400EF7C57 /* UIViewController+STPresent.m in Sources */,
-				04FE8F991FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.m in Sources */,
-				04FE8FC41FD4EBD400EF7C57 /* STRadioButton.m in Sources */,
-				04FE8FAE1FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.m in Sources */,
-				04FE8FC11FD4EBD400EF7C57 /* STButton.m in Sources */,
-				04FE8F111FD4EBC300EF7C57 /* TMRegisterViewController.m in Sources */,
-				04FE8FAF1FD4EBD400EF7C57 /* STImagePickerController.m in Sources */,
-				04FE8FA81FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.m in Sources */,
-				04FE8FAA1FD4EBD400EF7C57 /* STUrlPhotoModel.m in Sources */,
 				04FE8EC21FD4E9E800EF7C57 /* AppDelegate.m in Sources */,
-				04FE8FA51FD4EBD400EF7C57 /* UIButton+STPhotoKitSelectedAnimation.m in Sources */,
-				04FE8F941FD4EBD400EF7C57 /* NSDate+STFormatter.m in Sources */,
-				04FE8F981FD4EBD400EF7C57 /* UIImage+STTools.m in Sources */,
-				04FE8F101FD4EBC300EF7C57 /* TMForgotViewController.m in Sources */,
-				04FE8FA11FD4EBD400EF7C57 /* STNetWrokManger.m in Sources */,
-				04FE8FB91FD4EBD400EF7C57 /* STTableViewDetailController.m in Sources */,
-				04FE8FB71FD4EBD400EF7C57 /* STScanTwoCodeController.m in Sources */,
-				04FE8FCB1FD4EBD400EF7C57 /* TBVideoRequestTask.m in Sources */,
-				04FE8FAD1FD4EBD400EF7C57 /* STPhotoCollectionViewCell.m in Sources */,
-				04FE8F9E1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.m in Sources */,
-				04FE8F0F1FD4EBC300EF7C57 /* TMTabbarViewController.m in Sources */,
-				04FE8FBC1FD4EBD400EF7C57 /* STAdvertingScrollView.m in Sources */,
-				04FE8FBE1FD4EBD400EF7C57 /* STAVResourseLoder.m in Sources */,
-				04FE8FB51FD4EBD400EF7C57 /* STPickerViewController.m in Sources */,
-				04FE8F9A1FD4EBD400EF7C57 /* UITextField+STInputLimit.m in Sources */,
-				04FE8FBA1FD4EBD400EF7C57 /* STWebViewController.m in Sources */,
-				04FE8FD11FD4EC2400EF7C57 /* TMBaseViewController.m in Sources */,
-				04FE8F0D1FD4EBC300EF7C57 /* STNoresultView.m in Sources */,
-				04FE8F0E1FD4EBC300EF7C57 /* TMLoginViewController.m in Sources */,
-				04FE8F971FD4EBD400EF7C57 /* NSString+STMD5.m in Sources */,
-				04FE8FC61FD4EBD400EF7C57 /* STSendButton.m in Sources */,
-				04FE8FC31FD4EBD400EF7C57 /* STProgressHudTool.m in Sources */,
-				04FE8F961FD4EBD400EF7C57 /* NSString+STFormatter.m in Sources */,
-				04FE8FB31FD4EBD400EF7C57 /* STLayoutViewController.m in Sources */,
-				04FE8FCE1FD4EC0500EF7C57 /* TMBaseView.m in Sources */,
-				04FE8F951FD4EBD400EF7C57 /* NSObject+STRuntimeTool.m in Sources */,
-				04FE8FA91FD4EBD400EF7C57 /* STPhotoModel.m in Sources */,
-				04FE8F921FD4EBD400EF7C57 /* TMUtils.m in Sources */,
-				04FE8FA71FD4EBD400EF7C57 /* STPhotoSystemBrowserController.m in Sources */,
-				04FE8FA31FD4EBD400EF7C57 /* STTableEasyModel.m in Sources */,
-				04FE8FC51FD4EBD400EF7C57 /* STSegementButton.m in Sources */,
-				04FE8F9F1FD4EBD400EF7C57 /* STError.m in Sources */,
-				04FE8FC91FD4EBD400EF7C57 /* STXingXIngView.m in Sources */,
-				04FE8FB81FD4EBD400EF7C57 /* STTableViewController.m in Sources */,
-				04FE8FA21FD4EBD400EF7C57 /* STUserManger.m in Sources */,
-				04FE8F9B1FD4EBD400EF7C57 /* UIView+STAnimation.m in Sources */,
-				04FE8FAB1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.m in Sources */,
-				04FE8FBD1FD4EBD400EF7C57 /* STAutoAddView.m in Sources */,
-				04FE8F931FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -922,6 +394,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		04FE8EC61FD4E9E800EF7C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FE8EC71FD4E9E800EF7C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		04FE8ECB1FD4E9E800EF7C57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -971,7 +451,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/blanket/MainTab/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1025,7 +504,6 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/blanket/MainTab/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1047,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y55NGT3P6P;
 				INFOPLIST_FILE = blanket/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "stoneobs-icloud.com.blanket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1063,7 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y55NGT3P6P;
 				INFOPLIST_FILE = blanket/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "stoneobs-icloud.com.blanket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
