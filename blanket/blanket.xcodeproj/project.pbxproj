@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048FEFB41FD54242000A56AD /* BLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFB31FD54242000A56AD /* BLHomeViewController.m */; };
+		048FEFB71FD54251000A56AD /* BLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFB61FD54251000A56AD /* BLMineViewController.m */; };
+		048FEFBA1FD54261000A56AD /* BLRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFB91FD54261000A56AD /* BLRechargeViewController.m */; };
+		048FEFBD1FD54275000A56AD /* BLSupplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFBC1FD54275000A56AD /* BLSupplyViewController.m */; };
+		048FEFC11FD54596000A56AD /* BLMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFC01FD54596000A56AD /* BLMineHeaderView.m */; };
+		048FEFC41FD54E5A000A56AD /* BLMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFC31FD54E5A000A56AD /* BLMineTableViewCell.m */; };
+		048FEFC81FD5513B000A56AD /* BLSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048FEFC71FD5513B000A56AD /* BLSettingViewController.m */; };
 		04FE8EC21FD4E9E800EF7C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8EC11FD4E9E800EF7C57 /* AppDelegate.m */; };
 		04FE8ECA1FD4E9E800EF7C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8EC91FD4E9E800EF7C57 /* Assets.xcassets */; };
 		04FE8ECD1FD4E9E800EF7C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FE8ECB1FD4E9E800EF7C57 /* LaunchScreen.storyboard */; };
@@ -79,6 +86,7 @@
 		04FE8FCE1FD4EC0500EF7C57 /* TMBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FCD1FD4EC0500EF7C57 /* TMBaseView.m */; };
 		04FE8FD11FD4EC2400EF7C57 /* TMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FD01FD4EC2400EF7C57 /* TMBaseViewController.m */; };
 		04FE8FD41FD4EC4A00EF7C57 /* TMNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FD31FD4EC4A00EF7C57 /* TMNavgationViewController.m */; };
+		04FE8FD71FD4F55E00EF7C57 /* BLLoginHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8FD61FD4F55E00EF7C57 /* BLLoginHomeViewController.m */; };
 		937657A1E6DDDAF987D4C48C /* Pods_blanket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F02ECB1CACF5277A0410BAA /* Pods_blanket.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +108,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048FEFB21FD54242000A56AD /* BLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLHomeViewController.h; sourceTree = "<group>"; };
+		048FEFB31FD54242000A56AD /* BLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLHomeViewController.m; sourceTree = "<group>"; };
+		048FEFB51FD54251000A56AD /* BLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMineViewController.h; sourceTree = "<group>"; };
+		048FEFB61FD54251000A56AD /* BLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLMineViewController.m; sourceTree = "<group>"; };
+		048FEFB81FD54261000A56AD /* BLRechargeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLRechargeViewController.h; sourceTree = "<group>"; };
+		048FEFB91FD54261000A56AD /* BLRechargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLRechargeViewController.m; sourceTree = "<group>"; };
+		048FEFBB1FD54275000A56AD /* BLSupplyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLSupplyViewController.h; sourceTree = "<group>"; };
+		048FEFBC1FD54275000A56AD /* BLSupplyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLSupplyViewController.m; sourceTree = "<group>"; };
+		048FEFBF1FD54596000A56AD /* BLMineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMineHeaderView.h; sourceTree = "<group>"; };
+		048FEFC01FD54596000A56AD /* BLMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLMineHeaderView.m; sourceTree = "<group>"; };
+		048FEFC21FD54E5A000A56AD /* BLMineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLMineTableViewCell.h; sourceTree = "<group>"; };
+		048FEFC31FD54E5A000A56AD /* BLMineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLMineTableViewCell.m; sourceTree = "<group>"; };
+		048FEFC61FD5513B000A56AD /* BLSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLSettingViewController.h; sourceTree = "<group>"; };
+		048FEFC71FD5513B000A56AD /* BLSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLSettingViewController.m; sourceTree = "<group>"; };
 		04FE8EBD1FD4E9E800EF7C57 /* blanket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blanket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FE8EC01FD4E9E800EF7C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04FE8EC11FD4E9E800EF7C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -248,6 +270,8 @@
 		04FE8FD01FD4EC2400EF7C57 /* TMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMBaseViewController.m; sourceTree = "<group>"; };
 		04FE8FD21FD4EC4A00EF7C57 /* TMNavgationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMNavgationViewController.h; sourceTree = "<group>"; };
 		04FE8FD31FD4EC4A00EF7C57 /* TMNavgationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMNavgationViewController.m; sourceTree = "<group>"; };
+		04FE8FD51FD4F55E00EF7C57 /* BLLoginHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLLoginHomeViewController.h; sourceTree = "<group>"; };
+		04FE8FD61FD4F55E00EF7C57 /* BLLoginHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLLoginHomeViewController.m; sourceTree = "<group>"; };
 		7EDDEA309159BDDA8780EEDF /* Pods-blanket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blanket.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-blanket/Pods-blanket.debug.xcconfig"; sourceTree = "<group>"; };
 		8F02ECB1CACF5277A0410BAA /* Pods_blanket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blanket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE863A6396AE6A73536ABE72 /* Pods-blanket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blanket.release.xcconfig"; path = "../Pods/Target Support Files/Pods-blanket/Pods-blanket.release.xcconfig"; sourceTree = "<group>"; };
@@ -279,6 +303,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048FEFAA1FD54229000A56AD /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFBE1FD54554000A56AD /* View */,
+				048FEFAB1FD54229000A56AD /* ViewController */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		048FEFAB1FD54229000A56AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFC51FD55109000A56AD /* Setting */,
+				048FEFB51FD54251000A56AD /* BLMineViewController.h */,
+				048FEFB61FD54251000A56AD /* BLMineViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048FEFAC1FD54229000A56AD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFAD1FD54229000A56AD /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		048FEFAD1FD54229000A56AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFB21FD54242000A56AD /* BLHomeViewController.h */,
+				048FEFB31FD54242000A56AD /* BLHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048FEFAE1FD54229000A56AD /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFAF1FD54229000A56AD /* ViewController */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		048FEFAF1FD54229000A56AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFB81FD54261000A56AD /* BLRechargeViewController.h */,
+				048FEFB91FD54261000A56AD /* BLRechargeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048FEFB01FD54229000A56AD /* Supply */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFB11FD54229000A56AD /* ViewController */,
+			);
+			path = Supply;
+			sourceTree = "<group>";
+		};
+		048FEFB11FD54229000A56AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFBB1FD54275000A56AD /* BLSupplyViewController.h */,
+				048FEFBC1FD54275000A56AD /* BLSupplyViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		048FEFBE1FD54554000A56AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFBF1FD54596000A56AD /* BLMineHeaderView.h */,
+				048FEFC01FD54596000A56AD /* BLMineHeaderView.m */,
+				048FEFC21FD54E5A000A56AD /* BLMineTableViewCell.h */,
+				048FEFC31FD54E5A000A56AD /* BLMineTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048FEFC51FD55109000A56AD /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				048FEFC61FD5513B000A56AD /* BLSettingViewController.h */,
+				048FEFC71FD5513B000A56AD /* BLSettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		04FE8EB41FD4E9E800EF7C57 = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +418,10 @@
 		04FE8EBF1FD4E9E800EF7C57 /* blanket */ = {
 			isa = PBXGroup;
 			children = (
+				048FEFAC1FD54229000A56AD /* Home */,
+				048FEFAA1FD54229000A56AD /* Mine */,
+				048FEFAE1FD54229000A56AD /* Recharge */,
+				048FEFB01FD54229000A56AD /* Supply */,
 				04FE8EF21FD4EBC300EF7C57 /* MainTab */,
 				04FE8F121FD4EBD400EF7C57 /* Utils */,
 				04FE8EC01FD4E9E800EF7C57 /* AppDelegate.h */,
@@ -370,6 +488,8 @@
 				04FE8F011FD4EBC300EF7C57 /* TMLoginViewController.m */,
 				04FE8F021FD4EBC300EF7C57 /* TMTabbarViewController.h */,
 				04FE8F031FD4EBC300EF7C57 /* TMTabbarViewController.m */,
+				04FE8FD51FD4F55E00EF7C57 /* BLLoginHomeViewController.h */,
+				04FE8FD61FD4F55E00EF7C57 /* BLLoginHomeViewController.m */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -833,18 +953,23 @@
 				04FE8FC81FD4EBD400EF7C57 /* STVideoPlayView.m in Sources */,
 				04FE8F9C1FD4EBD400EF7C57 /* UIView+STDirection.m in Sources */,
 				04FE8F9D1FD4EBD400EF7C57 /* UIView+STShadow.m in Sources */,
+				048FEFBD1FD54275000A56AD /* BLSupplyViewController.m in Sources */,
 				04FE8FB41FD4EBD400EF7C57 /* STNavigationController.m in Sources */,
 				04FE8FC21FD4EBD400EF7C57 /* STLabel.m in Sources */,
 				04FE8FB61FD4EBD400EF7C57 /* STPopViewController.m in Sources */,
 				04FE8FD41FD4EC4A00EF7C57 /* TMNavgationViewController.m in Sources */,
 				04FE8FC71FD4EBD400EF7C57 /* STTextView.m in Sources */,
 				04FE8FBB1FD4EBD400EF7C57 /* UIViewController+STPresent.m in Sources */,
+				048FEFB71FD54251000A56AD /* BLMineViewController.m in Sources */,
 				04FE8F991FD4EBD400EF7C57 /* UITableView+STKeybordAdjust.m in Sources */,
 				04FE8FC41FD4EBD400EF7C57 /* STRadioButton.m in Sources */,
+				048FEFC81FD5513B000A56AD /* BLSettingViewController.m in Sources */,
+				048FEFBA1FD54261000A56AD /* BLRechargeViewController.m in Sources */,
 				04FE8FAE1FD4EBD400EF7C57 /* STUrlBrowserCollectionViewCell.m in Sources */,
 				04FE8FC11FD4EBD400EF7C57 /* STButton.m in Sources */,
 				04FE8F111FD4EBC300EF7C57 /* TMRegisterViewController.m in Sources */,
 				04FE8FAF1FD4EBD400EF7C57 /* STImagePickerController.m in Sources */,
+				04FE8FD71FD4F55E00EF7C57 /* BLLoginHomeViewController.m in Sources */,
 				04FE8FA81FD4EBD400EF7C57 /* STPhotoUrlImageBrowerController.m in Sources */,
 				04FE8FAA1FD4EBD400EF7C57 /* STUrlPhotoModel.m in Sources */,
 				04FE8EC21FD4E9E800EF7C57 /* AppDelegate.m in Sources */,
@@ -855,6 +980,7 @@
 				04FE8FA11FD4EBD400EF7C57 /* STNetWrokManger.m in Sources */,
 				04FE8FB91FD4EBD400EF7C57 /* STTableViewDetailController.m in Sources */,
 				04FE8FB71FD4EBD400EF7C57 /* STScanTwoCodeController.m in Sources */,
+				048FEFB41FD54242000A56AD /* BLHomeViewController.m in Sources */,
 				04FE8FCB1FD4EBD400EF7C57 /* TBVideoRequestTask.m in Sources */,
 				04FE8FAD1FD4EBD400EF7C57 /* STPhotoCollectionViewCell.m in Sources */,
 				04FE8F9E1FD4EBD400EF7C57 /* UIViewController+STNavigationTools.m in Sources */,
@@ -872,6 +998,7 @@
 				04FE8FC31FD4EBD400EF7C57 /* STProgressHudTool.m in Sources */,
 				04FE8F961FD4EBD400EF7C57 /* NSString+STFormatter.m in Sources */,
 				04FE8FB31FD4EBD400EF7C57 /* STLayoutViewController.m in Sources */,
+				048FEFC11FD54596000A56AD /* BLMineHeaderView.m in Sources */,
 				04FE8FCE1FD4EC0500EF7C57 /* TMBaseView.m in Sources */,
 				04FE8F951FD4EBD400EF7C57 /* NSObject+STRuntimeTool.m in Sources */,
 				04FE8FA91FD4EBD400EF7C57 /* STPhotoModel.m in Sources */,
@@ -885,6 +1012,7 @@
 				04FE8FA21FD4EBD400EF7C57 /* STUserManger.m in Sources */,
 				04FE8F9B1FD4EBD400EF7C57 /* UIView+STAnimation.m in Sources */,
 				04FE8FAB1FD4EBD400EF7C57 /* STBrowserCollectionViewCell.m in Sources */,
+				048FEFC41FD54E5A000A56AD /* BLMineTableViewCell.m in Sources */,
 				04FE8FBD1FD4EBD400EF7C57 /* STAutoAddView.m in Sources */,
 				04FE8F931FD4EBD400EF7C57 /* NSCalendar+STCalendarTool.m in Sources */,
 			);
@@ -1047,7 +1175,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y55NGT3P6P;
 				INFOPLIST_FILE = blanket/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "stoneobs-icloud.com.blanket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1063,7 +1191,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y55NGT3P6P;
 				INFOPLIST_FILE = blanket/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "stoneobs-icloud.com.blanket";
 				PRODUCT_NAME = "$(TARGET_NAME)";

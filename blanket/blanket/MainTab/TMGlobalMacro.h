@@ -39,6 +39,19 @@ _Pragma("clang diagnostic pop") \
 #define KL_BlueBackGroundColor   UIColorFromRGBA(0x2a92ea)
 #define KL_BlackBackGroundColor UIColorFromRGBA(0x1a1a1a)
 #define KL_placeHoderImage      [UIImage new]
+//bl
+#define BL_firstTextColor       UIColorFromRGBA(0x333333)
+#define BL_secendTextColor      UIColorFromRGBA(0x666666)
+#define BL_thirdTextColor       UIColorFromRGBA(0x999999)
+#define BL_lineColor            UIColorFromRGBA(0xd9d9d9)
+#define BL_backgroundColor      UIColorFromRGBA(0xf2f2f2)
+
+#define BL_redColor             UIColorFromRGBA(0xf03611)
+#define BL_grayBackGroundColor  UIColorFromRGBA(0xB3B3B3)
+#define BL_YellowBackGroundColor  UIColorFromRGBA(0xD89c10)
+#define BL_BlueBackGroundColor    [UIColor colorWithRed:0/255.0 green:147/255.0 blue:215/255.0 alpha:1]
+#define BL_BlackBackGroundColor UIColorFromRGBA(0x1a1a1a)
+#define BL_placeHoderImage      [UIImage new]
 //今后统一规范，不在使用前缀，多个app通用
 #define FirstTextColor       UIColorFromRGBA(0x333333)
 #define SecendTextColor      UIColorFromRGBA(0x666666)

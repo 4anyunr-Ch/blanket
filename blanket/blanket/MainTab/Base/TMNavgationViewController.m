@@ -13,7 +13,21 @@
 @end
 
 @implementation TMNavgationViewController
-
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController
+{
+    
+    if (self = [super initWithRootViewController:rootViewController]) {
+        self.interactivePopGestureRecognizer.delegate = (id)self;
+        [self.navigationBar setBarTintColor:BL_BlueBackGroundColor];
+        self.navigationBar.backgroundColor = BL_BlueBackGroundColor;
+        self.navigationBar.translucent = YES;
+        self.view.backgroundColor = [UIColor whiteColor];
+        //title
+        [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont boldSystemFontOfSize:17]}];
+        
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

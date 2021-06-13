@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BLLoginHomeViewController.h"
+#import "TMNavgationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [SVProgressHUD setMaximumDismissTimeInterval:2];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [TMTabbarViewController new];
+//    if (![STUserManger defult].token.length) {
+//        STNavigationController * nav = [[TMNavgationViewController alloc] initWithRootViewController:[BLLoginHomeViewController new]];
+//        self.window.rootViewController = nav;
+//    }
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -49,3 +59,4 @@
 
 
 @end
+

@@ -77,24 +77,11 @@
 }
 #pragma mark --subView
 - (void)configSubView{
-//    UIImageView * backImageView = [[UIImageView alloc] initWithFrame:UIScreenFrame];
-//    backImageView.image = [UIImage imageNamed:@"bg"];
-//    [self.view addSubview:backImageView];
+
     self.view.backgroundColor = [UIColor whiteColor];
-    UIImageView * iconImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 110, 107)];
-    iconImageView.image = [UIImage imageNamed:@"logo"];
-    iconImageView.st_centerX = UIScreenWidth /2;
-    iconImageView.st_top = 40;
-    [self.view addSubview:iconImageView];
-    
-    UIImageView * titleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 113, 26)];
-    titleImageView.image = [UIImage imageNamed:@"昆仑部落"];
-    titleImageView.st_centerX = UIScreenWidth /2;
-    titleImageView.st_top = iconImageView.bottom + 22;
-    [self.view addSubview:titleImageView];
-    
+
     UIView * accountView = [self configAccountTextFiled];
-    accountView.st_top = titleImageView.bottom + 40;
+    accountView.st_top = 100;
     [self.view addSubview:accountView];
     
     UIView * codeView = [self configCodeTextFiled];
@@ -110,11 +97,11 @@
     [self.view addSubview:confimPwdView];
     
     __weak typeof(self) weakSelf =  self;
-    STButton * loginButton = [[STButton alloc] initWithFrame:CGRectMake(30, confimPwdView.st_bottom + 30, Defutlt_witdh, 44)
-                                                       title:@"注册"
+    STButton * loginButton = [[STButton alloc] initWithFrame:CGRectMake(30, confimPwdView.st_bottom + 30, Defutlt_witdh, 50)
+                                                       title:@"立即注册"
                                                   titleColor:[UIColor whiteColor]
                                                    titleFont:18
-                                                cornerRadius:22
+                                                cornerRadius:5
                                              backgroundColor:KL_BlueBackGroundColor
                                              backgroundImage:nil
                                                        image:nil];
@@ -123,96 +110,123 @@
         [weakSelf onSelectedRegisterButton];
     }];
     [self.view addSubview:loginButton];
+    
+    STLabel * titleLable = [[STLabel alloc] initWithFrame:CGRectMake(0, loginButton.bottom + 30, UIScreenWidth, 45)
+                                                     text:@"点击立即注册，即表示您同意并愿意遵守\n用户协议和隐私政策"
+                                                textColor:BL_firstTextColor
+                                                     font:15
+                                              isSizetoFit:NO
+                                            textAlignment:NSTextAlignmentCenter];
+    titleLable.numberOfLines = 0;
+    titleLable.attributedText = [titleLable.text st_convertAttributeStringWithKeyWords:@[@"用户协议",@"隐私政策"]
+                                                                            attributes:@[@{NSForegroundColorAttributeName:BL_BlueBackGroundColor},@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}]];
+    [self.view addSubview:titleLable];
+    
+    UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, titleLable.bottom + 50, 80, 80)];
+    imageView.centerX = UIScreenWidth / 2;
+    imageView.image = [UIImage imageNamed:@"底图logo"];
+    [self.view addSubview:imageView];
 }
 - (UIView*)configAccountTextFiled{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(30, 0, Defutlt_witdh , 44)];
-    view.backgroundColor = textFieldbackColor;
-    view.layer.cornerRadius = 22;
-    view.clipsToBounds = YES;
-    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(22, 0, view.st_width - 44, 44)];
-    textFiled.placeholder = @"用户名/手机号";
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreenWidth , 44)];
+    view.backgroundColor = [UIColor clearColor];
+    
+    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 17, 26)];
+    leftImageView.image = [UIImage imageNamed:@"手机"];
+    leftImageView.centerY = view.height/2;
+    [view addSubview:leftImageView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 0, view.st_width - 50 - 18, 44)];
+    textFiled.placeholder = @"请输入你的手机号";
+    textFiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:textFiled.placeholder attributes:@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}];
     textFiled.keyboardType = UIKeyboardTypeNumberPad;
-    UIView * leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 24, 15)];
-    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 12, 15)];
-    leftImageView.image = [UIImage imageNamed:@"icon01_user"];
-    [leftView addSubview:leftImageView];
-    textFiled.leftView = leftView;
-    textFiled.leftViewMode = UITextFieldViewModeAlways;
     textFiled.clearButtonMode = UITextFieldViewModeWhileEditing;
     [view addSubview:textFiled];
     self.accountTextFiled = textFiled;
-    return view;
-}
-- (UIView*)configCodeTextFiled{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(30, 0, UIScreenWidth - 60, 44)];
-    view.backgroundColor = textFieldbackColor;
-    view.layer.cornerRadius = 22;
-    view.clipsToBounds = YES;
-    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(22, 0, view.st_width - 44, 44)];
-    textFiled.placeholder = @"请输入验证码";
-    UIView * leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 24, 15)];
-    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 12, 15)];
-    leftImageView.image = [UIImage imageNamed:@"icon01_验证码"];
-    [leftView addSubview:leftImageView];
-    textFiled.leftView = leftView;
-    textFiled.keyboardType = UIKeyboardTypeNumberPad;
-    textFiled.leftViewMode = UITextFieldViewModeAlways;
-    //  textFiled.textColor = UIColorFromRGBA(0xB3B3B3);
     //倒计时
-    self.sendButton = [[STSendButton alloc] initWithFrame:CGRectMake(0, 0, 100, 30) andWithDuration:60];
-    self.sendButton.backgroundColor = FlatRed;
-    self.sendButton.layer.cornerRadius = 15;
+    self.sendButton = [[STSendButton alloc] initWithFrame:CGRectMake(0, 0, 80, 30) andWithDuration:60];
+    self.sendButton.backgroundColor = BL_BlueBackGroundColor;
+    self.sendButton.layer.cornerRadius = 5;
     self.sendButton.clipsToBounds = YES;
     self.sendButton.delegate = self;
     self.sendButton.titleLabel.font = [UIFont systemFontOfSize:12];
-    textFiled.rightView = self.sendButton;
     [self.sendButton setTitle:@"获取验证码" forState:UIControlStateNormal];
+    textFiled.rightView = self.sendButton;
     textFiled.rightViewMode = UITextFieldViewModeAlways;
+    textFiled.height = 43;
+    UIView  * line = [[UIView alloc] initWithFrame:CGRectMake(textFiled.left, textFiled.bottom, textFiled.width, 0.5)];
+    line.backgroundColor = BL_BlueBackGroundColor;
+    [view addSubview:line];
+    return view;
+}
+- (UIView*)configCodeTextFiled{
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreenWidth , 44)];
+    view.backgroundColor = [UIColor clearColor];
+    
+    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 20, 23)];
+    leftImageView.image = [UIImage imageNamed:@"验证码"];
+    leftImageView.centerY = view.height/2;
+    [view addSubview:leftImageView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 0, view.st_width - 50 - 18, 44)];
+    textFiled.placeholder = @"请输入验证码";
+    textFiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:textFiled.placeholder attributes:@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}];
+    textFiled.keyboardType = UIKeyboardTypeNumberPad;
+    textFiled.clearButtonMode = UITextFieldViewModeWhileEditing;
     [view addSubview:textFiled];
     self.codeTextFiled = textFiled;
-    // textFiled.textColor = UIColorFromRGBA(0xB3B3B3);
+    textFiled.rightViewMode = UITextFieldViewModeAlways;
+    textFiled.height = 43;
+    UIView  * line = [[UIView alloc] initWithFrame:CGRectMake(textFiled.left, textFiled.bottom, textFiled.width, 0.5)];
+    line.backgroundColor = BL_BlueBackGroundColor;
+    [view addSubview:line];
     return view;
 }
 - (UIView*)configpwdTextFiled{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(30, 0, UIScreenWidth - 60, 44)];
-    view.backgroundColor = textFieldbackColor;
-    view.layer.cornerRadius = 22;
-    view.clipsToBounds = YES;
-    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(22, 0, view.st_width - 44, 44)];
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreenWidth , 44)];
+    view.backgroundColor = [UIColor clearColor];
+    
+    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 20, 26)];
+    leftImageView.image = [UIImage imageNamed:@"密码(1)"];
+    leftImageView.centerY = view.height/2;
+    [view addSubview:leftImageView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 0, view.st_width - 50 - 18, 44)];
     textFiled.placeholder = @"请输入密码";
-    UIView * leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 24, 15)];
-    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 12, 15)];
-    leftImageView.image = [UIImage imageNamed:@"icon01_密码"];
-    [leftView addSubview:leftImageView];
-    textFiled.leftView = leftView;
+    textFiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:textFiled.placeholder attributes:@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}];
+    textFiled.keyboardType = UIKeyboardTypeNumberPad;
     textFiled.clearButtonMode = UITextFieldViewModeWhileEditing;
-    textFiled.keyboardType = UIKeyboardTypeASCIICapable;
-    textFiled.leftViewMode = UITextFieldViewModeAlways;
-    textFiled.secureTextEntry = YES;
     [view addSubview:textFiled];
     self.pwdTextFiled = textFiled;
-    // textFiled.textColor = UIColorFromRGBA(0xB3B3B3);
+    textFiled.rightViewMode = UITextFieldViewModeAlways;
+    textFiled.height = 43;
+    UIView  * line = [[UIView alloc] initWithFrame:CGRectMake(textFiled.left, textFiled.bottom, textFiled.width, 0.5)];
+    line.backgroundColor = BL_BlueBackGroundColor;
+    [view addSubview:line];
     return view;
 }
 - (UIView*)configConfirmpwdTextFiled{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(30, 0, UIScreenWidth - 60, 44)];
-    view.backgroundColor = textFieldbackColor;
-    view.layer.cornerRadius = 22;
-    view.clipsToBounds = YES;
-    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(22, 0, view.st_width - 44, 44)];
-    textFiled.placeholder = @"请确认密码";
-    UIView * leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 24, 15)];
-    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 12, 15)];
-    leftImageView.image = [UIImage imageNamed:@"icon01_密码"];
-    [leftView addSubview:leftImageView];
-    textFiled.leftView = leftView;
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreenWidth , 44)];
+    view.backgroundColor = [UIColor clearColor];
+    
+    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 20, 26)];
+    leftImageView.image = [UIImage imageNamed:@"密码(1)"];
+    leftImageView.centerY = view.height/2;
+    [view addSubview:leftImageView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 0, view.st_width - 50 - 18, 44)];
+    textFiled.placeholder = @"请再次输入密码";
+    textFiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:textFiled.placeholder attributes:@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}];
+    textFiled.keyboardType = UIKeyboardTypeNumberPad;
     textFiled.clearButtonMode = UITextFieldViewModeWhileEditing;
-    textFiled.keyboardType = UIKeyboardTypeASCIICapable;
-    textFiled.leftViewMode = UITextFieldViewModeAlways;
-    textFiled.secureTextEntry = YES;
-    // textFiled.textColor = UIColorFromRGBA(0xB3B3B3);
     [view addSubview:textFiled];
     self.confimPwdTextFiled = textFiled;
+    textFiled.rightViewMode = UITextFieldViewModeAlways;
+    textFiled.height = 43;
+    UIView  * line = [[UIView alloc] initWithFrame:CGRectMake(textFiled.left, textFiled.bottom, textFiled.width, 0.5)];
+    line.backgroundColor = BL_BlueBackGroundColor;
+    [view addSubview:line];
+    
     return view;
 }
 #pragma mark --STSendButtonDlegate

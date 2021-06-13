@@ -24,12 +24,13 @@
 #pragma mark --vc 生命周期
 - (void)viewDidLoad{
     [super viewDidLoad];
+    self.title = @"登录";
     [self configSubView];
     [self addNotifacations];
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self st_hideNavagetionbarAnimated:animated];
+
     
 }
 - (void)viewDidAppear:(BOOL)animated{
@@ -37,7 +38,7 @@
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [self st_showNavagationbarAnimated:animated];
+
 }
 - (void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
@@ -67,25 +68,10 @@
 }
 #pragma mark --subView
 - (void)configSubView{
-//    [UIColor colorWithRed:81.0/255.0 green:136/255.0 blue:210/255.0 alpha:1];
-//     [UIColor colorWithRed:77/255.0 green:96/255.0 blue:129/255.0 alpha:1];
-    UIImageView * backImageView = [[UIImageView alloc] initWithFrame:UIScreenFrame];
-    backImageView.image = [UIImage imageNamed:@"bg"];
-    [self.view addSubview:backImageView];
-    UIImageView * iconImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 110, 107)];
-    iconImageView.image = [UIImage imageNamed:@"logo"];
-    iconImageView.st_centerX = UIScreenWidth /2;
-    iconImageView.st_top = 40;
-    [self.view addSubview:iconImageView];
-    
-    UIImageView * titleImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 113, 26)];
-    titleImageView.image = [UIImage imageNamed:@"昆仑部落"];
-    titleImageView.st_centerX = UIScreenWidth /2;
-    titleImageView.st_top = iconImageView.bottom + 22;
-    [self.view addSubview:titleImageView];
+
     
     UIView * accountView = [self configAccountTextFiled];
-    accountView.st_top = titleImageView.st_bottom + 50;
+    accountView.st_top = 100;
     [self.view addSubview:accountView];
     
     UIView * pwdView = [self configpwdTextFiled];
@@ -93,11 +79,11 @@
     [self.view addSubview:pwdView];
     
     __weak typeof(self) weakSelf =  self;
-    STButton * loginButton = [[STButton alloc] initWithFrame:CGRectMake(30, pwdView.st_bottom + 40, UIScreenWidth - 60, 44)
+    STButton * loginButton = [[STButton alloc] initWithFrame:CGRectMake(30, pwdView.st_bottom + 40, UIScreenWidth - 60, 50)
                                                        title:@"登录"
                                                   titleColor:[UIColor whiteColor]
                                                    titleFont:18
-                                                cornerRadius:22
+                                                cornerRadius:5
                                              backgroundColor:KL_BlueBackGroundColor
                                              backgroundImage:nil
                                                        image:nil];
@@ -107,54 +93,6 @@
     }];
     [self.view addSubview:loginButton];
     
-    STButton * forgotButton = [[STButton alloc] initWithFrame:CGRectMake(30 + 22, loginButton.st_bottom + 20, 100, 44)
-                                                        title:@"忘记密码?"
-                                                   titleColor:[UIColor whiteColor]
-                                                    titleFont:13
-                                                 cornerRadius:0
-                                              backgroundColor:[UIColor clearColor]
-                                              backgroundImage:nil
-                                                        image:nil];
-    forgotButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-    [forgotButton setClicAction:^(UIButton *sender) {
-        [weakSelf onSelectedforgotButton];
-    }];
-    [self.view addSubview:forgotButton];
-    
-    STButton * registerButton = [[STButton alloc] initWithFrame:CGRectMake(30, loginButton.st_bottom + 20, 100, 44)
-                                                          title:@"立即注册"
-                                                     titleColor:[UIColor whiteColor]
-                                                      titleFont:13
-                                                   cornerRadius:0
-                                                backgroundColor:[UIColor clearColor]
-                                                backgroundImage:nil
-                                                          image:nil];
-    registerButton.st_right = loginButton.st_right - 22;
-    registerButton.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
-    [registerButton setClicAction:^(UIButton *sender) {
-        [weakSelf onSelectedregisterButton];
-    }];
-    [self.view addSubview:registerButton];
-    
-    //copyRight
-    STLabel * commpanyLable = [[STLabel alloc] initWithFrame:CGRectMake(15, 0, UIScreenWidth - 30 , 13)
-                                                        text:@"四川昆仑电子商务有限公司"
-                                                   textColor:[UIColor whiteColor]
-                                                        font:12
-                                                 isSizetoFit:NO
-                                               textAlignment:NSTextAlignmentCenter];
-    commpanyLable.st_centerX = UIScreenWidth / 2;
-    [self.view addSubview:commpanyLable];
-    STLabel * copyLable = [[STLabel alloc] initWithFrame:CGRectMake(15, 0, UIScreenWidth - 30, 13)
-                                                    text:@"Sichuan kunlun electronic business limited"
-                                               textColor:[UIColor whiteColor]
-                                                    font:12
-                                             isSizetoFit:NO
-                                           textAlignment:NSTextAlignmentCenter];
-    copyLable.st_centerX = UIScreenWidth / 2;
-    copyLable.st_bottom = UIScreenHeight - 20 ;
-    commpanyLable.st_bottom = copyLable.st_top - 5;
-    [self.view addSubview:copyLable];
     
 //    STLabel * titleLable = [[STLabel alloc] initWithFrame:CGRectMake(0, loginButton.st_bottom + 80, 80, 14)
 //                                                     text:@"第三方登录"
@@ -220,48 +158,49 @@
 //    [self.view addSubview:sinaButton];
 }
 - (UIView*)configAccountTextFiled{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(30, 0, UIScreenWidth - 60, 44)];
-    view.backgroundColor = textFiledBackgroundColor;
-    view.layer.cornerRadius = 22;
-    view.clipsToBounds = YES;
-    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(22, 0, view.st_width - 44, 44)];
-    textFiled.placeholder = @"用户名/手机号";
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreenWidth , 44)];
+    view.backgroundColor = [UIColor clearColor];
+    
+    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 17, 26)];
+    leftImageView.image = [UIImage imageNamed:@"手机"];
+    leftImageView.centerY = view.height/2;
+    [view addSubview:leftImageView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 0, view.st_width - 50 - 18, 44)];
+    textFiled.placeholder = @"请输入你的手机号";
+    textFiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:textFiled.placeholder attributes:@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}];
     textFiled.keyboardType = UIKeyboardTypeNumberPad;
-    UIView * leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0 ,25, 44)];
-    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 3, 14, 18)];
-    leftImageView.centerY = leftView.height / 2;
-    leftImageView.image = [UIImage imageNamed:@"icon01_user"];
-    [leftView addSubview:leftImageView];
-    textFiled.leftView = leftView;
-    textFiled.leftViewMode = UITextFieldViewModeAlways;
     textFiled.clearButtonMode = UITextFieldViewModeWhileEditing;
-    textFiled.textColor = [UIColor whiteColor];
-    textFiled.backgroundColor =  textFiledBackgroundColor;
     [view addSubview:textFiled];
     self.accountTextFiled = textFiled;
+    textFiled.rightViewMode = UITextFieldViewModeAlways;
+    textFiled.height = 43;
+    UIView  * line = [[UIView alloc] initWithFrame:CGRectMake(textFiled.left, textFiled.bottom, textFiled.width, 0.5)];
+    line.backgroundColor = BL_BlueBackGroundColor;
+    [view addSubview:line];
     return view;
 }
 - (UIView*)configpwdTextFiled{
-    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(30, 0, UIScreenWidth - 60, 44)];
-    view.backgroundColor = textFiledBackgroundColor;
-    view.layer.cornerRadius = 22;
-    view.clipsToBounds = YES;
-    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(22, 0, view.st_width - 44, 44)];
-    textFiled.placeholder = @"密码";
-    UIView * leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 23, 44)];
-    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 3, 12, 15)];
-    leftImageView.image = [UIImage imageNamed:@"icon01_密码"];
-    leftImageView.centerY = leftView.height / 2;
-    [leftView addSubview:leftImageView];
-    textFiled.leftView = leftView;
-    textFiled.textColor = [UIColor whiteColor];
-    textFiled.backgroundColor = textFiledBackgroundColor;
+    UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreenWidth , 44)];
+    view.backgroundColor = [UIColor clearColor];
+    
+    UIImageView * leftImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 0, 20, 26)];
+    leftImageView.image = [UIImage imageNamed:@"密码(1)"];
+    leftImageView.centerY = view.height/2;
+    [view addSubview:leftImageView];
+    
+    UITextField * textFiled = [[UITextField alloc] initWithFrame:CGRectMake(50, 0, view.st_width - 50 - 18, 44)];
+    textFiled.placeholder = @"请输入密码";
+    textFiled.attributedPlaceholder = [[NSAttributedString alloc] initWithString:textFiled.placeholder attributes:@{NSForegroundColorAttributeName:BL_BlueBackGroundColor}];
+    textFiled.keyboardType = UIKeyboardTypeNumberPad;
     textFiled.clearButtonMode = UITextFieldViewModeWhileEditing;
-    textFiled.keyboardType = UIKeyboardTypeASCIICapable;
-    textFiled.leftViewMode = UITextFieldViewModeAlways;
     [view addSubview:textFiled];
-    textFiled.secureTextEntry = YES;
     self.pwdTextFiled = textFiled;
+    textFiled.rightViewMode = UITextFieldViewModeAlways;
+    textFiled.height = 43;
+    UIView  * line = [[UIView alloc] initWithFrame:CGRectMake(textFiled.left, textFiled.bottom, textFiled.width, 0.5)];
+    line.backgroundColor = BL_BlueBackGroundColor;
+    [view addSubview:line];
     return view;
 }
 #pragma mark --Action Method

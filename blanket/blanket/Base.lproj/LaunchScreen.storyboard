@@ -20,7 +20,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="启动页" highlightedImage="启动页" translatesAutoresizingMaskIntoConstraints="NO" id="3dq-x8-4ha">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2CO-OO-TJr" firstAttribute="top" secondItem="3dq-x8-4ha" secondAttribute="bottom" id="5XC-La-NoP"/>
+                            <constraint firstItem="3dq-x8-4ha" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9PU-oc-QQs"/>
+                            <constraint firstAttribute="trailing" secondItem="3dq-x8-4ha" secondAttribute="trailing" id="otO-oJ-mNt"/>
+                            <constraint firstItem="3dq-x8-4ha" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tFu-Kv-CS5"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +39,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="启动页" width="750" height="1334"/>
+    </resources>
 </document>
